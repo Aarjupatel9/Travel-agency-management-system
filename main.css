@@ -57,6 +57,11 @@ nav {
     color: black;
     font-weight: bold;
 }
+
+nav a {
+    color: black;
+}
+
 a {
     text-decoration: none;
     color: antiquewhite;
