@@ -171,11 +171,11 @@ nav a {
 
 a {
     text-decoration: none;
-    color: black;
+    color: antiquewhite;
 }
 
 a:hover {
-    color: blue;
+    color: rgb(62, 62, 119);
 }
 
 #page_foot {
