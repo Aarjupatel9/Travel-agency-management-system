@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="main_menu.css">
+    <title>Main menu</title>
+</head>
+
+<body>
+    <h1>Welcome to Travel Management Website</h1>
+    <div id="login" class="main_menu">
+
+        <div id="btn">
+            <button  style="font-size: larger; margin: 1vw; padding: 5px;" id="login_btn" class="btn">Login</button>
+            <script type="text/javascript">
+                document.getElementById("log_btn").onclick = function () {
+                    location.href = "login.html";
+                };
+            </script>
+
+            <button  style="font-size: larger; margin: 1vw; padding: 5px;" id="vihicle_btn" class="btn">vihicle information</button>
+            <script type="text/javascript">
+                document.getElementById("vihicle_btn").onclick = function () {
+                    location.href = "vihicle.html";
+                };
+            </script>
+
+            <button   style="font-size: larger; margin: 1vw; padding: 5px;" id="route_btn" class="btn">route information</button>
+            <script type="text/javascript">
+                document.getElementById("route_btn").onclick = function () {
+                    location.href = "route.html";
+                };
+            </script>
+            <button   style="font-size: larger; margin: 1vw; padding: 5px;" id="booking_btn" class="btn">booking your journy</button>
+            <script type="text/javascript">
+                document.getElementById("booking_btn").onclick = function () {
+                    location.href = "booking.html";
+                };
+            </script>
+        </div>
+    </div>
+
+</body>
+
+</html>
