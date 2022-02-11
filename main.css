@@ -57,16 +57,14 @@ nav {
     color: black;
     font-weight: bold;
 }
-
 a {
     text-decoration: none;
-    color: black;
+    color: antiquewhite;
 }
 
 a:hover {
-    color: blue;
+    color: rgb(62, 62, 119);
 }
-
 
 
 
@@ -93,6 +91,8 @@ main p {
 #page_foot {
     padding: 2px;
     background-color: rgba(153, 205, 50, 0.527);
+    font-weight: 800;
+    color: antiquewhite;
     text-align: center;
     font-size: large;
     position: relative;
