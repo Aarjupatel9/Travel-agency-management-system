@@ -165,6 +165,10 @@ nav {
     font-size: 20px;
 }
 
+nav a {
+    color: black;
+}
+
 a {
     text-decoration: none;
     color: black;
@@ -179,6 +183,8 @@ a:hover {
     padding: 12px;
     width: -webkit-fill-available;
     background-color: rgba(153, 205, 50, 0.527);
+    font-weight: 800;
+    color: antiquewhite;
     text-align: center;
     font-size: large;
     position: relative;
